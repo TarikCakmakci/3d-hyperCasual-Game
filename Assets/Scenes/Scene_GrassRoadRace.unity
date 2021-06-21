@@ -998,6 +998,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 480034, guid: 2ce83dba6e991a8469c95f70e0aba68e, type: 3}
   m_PrefabInstance: {fileID: 1528875719}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &338932757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4eba28bb3ffed404baa4385ee9985f53, type: 3}
+  m_PrefabInstance: {fileID: 1455322494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &338932760
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338932757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.75
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.76, z: 0}
+--- !u!114 &338932761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338932757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 146218476d64cf0408763d564da10e20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Side: 1
+  SolaKaydir: 0
+  SagaKaydir: 0
+  XDegeri: 1
+  GecisHizi: 7
 --- !u!1001 &358222706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3846,7 +3886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4eba28bb3ffed404baa4385ee9985f53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000071525574
+      value: 0.055
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4eba28bb3ffed404baa4385ee9985f53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3886,7 +3926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4eba28bb3ffed404baa4385ee9985f53, type: 3}
       propertyPath: m_Name
-      value: girl.fbx
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 4eba28bb3ffed404baa4385ee9985f53, type: 3}
       propertyPath: m_Controller
