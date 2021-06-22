@@ -17,13 +17,16 @@ public class Hareket : MonoBehaviour
     private Animator m_Animator;
     private CharacterController m_char;
     public float GecisHizi;
+    public float FwdSpeed = 7f;
     private float x;
+    private float y;
 
     void Start()
     {
         m_Animator = GetComponent<Animator>();
         m_char = GetComponent<CharacterController>();
         transform.position = Vector3.zero;
+        
 
     }
 
@@ -63,7 +66,8 @@ public class Hareket : MonoBehaviour
             }
 
         }
+        Vector3 moveVector = new Vector3(x - transform.position.x, y*Time.deltaTime, -FwdSpeed*Time.deltaTime);
         x = Mathf.Lerp(x, YeniXPoz, Time.deltaTime * GecisHizi);
-        m_char.Move((x - transform.position.x) * Vector3.right);
+        m_char.Move(moveVector);
     }
 }
