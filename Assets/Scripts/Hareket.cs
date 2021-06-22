@@ -41,6 +41,7 @@ public class Hareket : MonoBehaviour
                 YeniXPoz = -XDegeri;
                 m_Side = SIDE.Sol;
                 m_Animator.Play("RightDodge");
+
             } else if (m_Side == SIDE.Sag)
             {
                 YeniXPoz = 0;
@@ -60,6 +61,7 @@ public class Hareket : MonoBehaviour
             }
             else if (m_Side == SIDE.Sol)
             {
+                
                 YeniXPoz = 0;
                 m_Side = SIDE.Orta;
                 m_Animator.Play("LeftDodge");

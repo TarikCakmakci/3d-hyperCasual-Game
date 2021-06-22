@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Assets\GrassRoadRace\Script\CameraMove.cs" />
     <Compile Include="Assets\Scripts\Hareket.cs" />
+    <Compile Include="Assets\Scripts\Toplama.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
