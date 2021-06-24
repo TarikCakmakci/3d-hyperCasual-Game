@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ana_Sahne.unity
+    guid: e323a50016ef3484f9e0d4d42c6bbc2b
   m_configObjects: {}
