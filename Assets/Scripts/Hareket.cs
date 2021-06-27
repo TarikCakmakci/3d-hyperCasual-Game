@@ -17,7 +17,7 @@ public class Hareket : MonoBehaviour
     private Animator m_Animator;
     private CharacterController m_char;
     public float GecisHizi;
-    public float FwdSpeed = 7f;
+    public float FwdSpeed = 3f;
     private float x;
     private float y;
 

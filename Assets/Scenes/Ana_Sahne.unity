@@ -1488,7 +1488,7 @@ MonoBehaviour:
   SagaKaydir: 0
   XDegeri: 1
   GecisHizi: 7
-  FwdSpeed: 2
+  FwdSpeed: 3
 --- !u!114 &338932762
 MonoBehaviour:
   m_ObjectHideFlags: 0
