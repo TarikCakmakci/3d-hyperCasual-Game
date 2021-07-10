@@ -32,8 +32,9 @@ public class Hareket : MonoBehaviour
 
     void Update()
     {
-        SolaKaydir = Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.LeftArrow);
-        SagaKaydir = Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.RightArrow);
+        //Input.GetKeyDown(KeyCode.LeftArrow) and Right Arrow will be update
+        SolaKaydir = Input.GetKeyDown(KeyCode.D) ;
+        SagaKaydir = Input.GetKeyDown(KeyCode.A) ;
         if (SolaKaydir)
         {
             if (m_Side == SIDE.Orta)
